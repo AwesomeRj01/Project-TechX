@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".CloudActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/abhaya_libre"
+        android:gravity="center"
+        android:text="Cloud services"
+        android:textAlignment="center"
+        android:textSize="45dp" />
+    <androidx.cardview.widget.CardView
+        android:layout_weight="1"
+        android:id="@+id/btnAws"
+        android:layout_width="match_parent"
+        android:backgroundTint="#ececea"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="Amazon AWS"
+            android:textSize="60dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_weight="1"
+        android:id="@+id/btnAzure"
+        android:layout_width="match_parent"
+        android:backgroundTint="#DFDFDD"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="Microsoft Azure"
+            android:textSize="60dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:backgroundTint="#CFCFCC"
+        android:id="@+id/btnGcp"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="Google GCP"
+            android:textSize="60dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:backgroundTint="#B6B6B5"
+        android:id="@+id/btnIbm"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="IBM Cloud"
+            android:textSize="60dp" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

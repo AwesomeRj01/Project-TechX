@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".BlockChainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/abhaya_libre"
+        android:gravity="center"
+        android:text="Blockchain"
+        android:textAlignment="center"
+        android:textSize="45dp" />
+    <androidx.cardview.widget.CardView
+        android:layout_weight="1"
+        android:id="@+id/btnIntro"
+        android:layout_width="match_parent"
+        android:backgroundTint="#ececea"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="Intro : Blockchain"
+            android:textSize="50dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:id="@+id/btnAdvantages"
+        android:backgroundTint="#DFDFDD"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="Advantages"
+            android:textSize="60dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_weight="1"
+        android:id="@+id/btnApplication"
+        android:layout_width="match_parent"
+        android:backgroundTint="#CFCFCC"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="Applications"
+            android:textSize="60dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:backgroundTint="#B6B6B5"
+        android:id="@+id/btnControversies"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="Controversies"
+            android:textSize="60dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
